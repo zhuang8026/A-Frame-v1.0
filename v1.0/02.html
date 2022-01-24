@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>02</title>
+
+        <!-- Production Version, Minified -->
+        <!-- <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script> -->
+        <!-- Development Version, Uncompressed with Source Maps -->
+        <script src="https://aframe.io/releases/1.1.0/aframe.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-ring
+                color="#4CC3D9"
+                position="0 1.5 -5"
+            ></a-ring>
+            <a-cone 
+                color="#4CC3D9"
+                position="3 1.5 -5"
+            ></a-cone>
+            <!-- <a-tetrahedron
+                color="#4CC3D9"
+                position="-3 1.5 -5"
+                rotation="0 0 0"
+            ></a-tetrahedron> -->
+            <!-- <a-dodecahedron	
+                color="#4CC3D9"
+                position="-3 1.5 -5"
+                rotation="0 0 0"
+            ></a-dodecahedron> -->
+            <!-- <a-torus	
+                color="#4CC3D9"
+                position="-3 1.5 -5"
+                rotation="0 0 0"
+            ></a-torus> -->
+            <!-- <a-torus-knot	
+                color="#4CC3D9"
+                position="-3 1.5 -5"
+                rotation="0 0 0"
+            ></a-torus-knot> -->
+            <a-image
+                color="#4CC3D9"
+                position="-3 1.5 -5"
+                rotation="0 0 0"
+                src="./img/met01.jpg"
+            ></a-image>
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="blue"></a-plane>
+            <a-sky color="gray"></a-sky>
+
+            <a-entity position="0 0 5">
+                <a-camera></a-camera>
+            </a-entity>
+            
+        </a-scene>
+    </body>
+</html>
